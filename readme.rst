@@ -3,13 +3,13 @@
 
 
 ===========================================================================
-PHP Memcached Client (simulator)
+PHP Memcached Client (simulator/polyfill)
 ===========================================================================
 
 
 
 As there has no php memcached extension for windows now, it's difficult to
-build develop envionment, so this class will be helpful.
+build develop environment, so this class will be helpful.
 
 Inspried by: http://github.com/joonas-fi/xslib-memcached
 
@@ -41,9 +41,5 @@ Supported method:
 -   set
 -   setOption
 -   setOptions
-
-
-Need disable memcached extension of PHP to run PHPUnit testcase.
-
 
 License: MIT
